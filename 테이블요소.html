@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>테이블 요소</title>
+    <style>
+
+        td {
+            border: 1px solid #e4e4e4;
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            border: 1px solid #e4e4e4;
+            padding: 10px;
+            text-align: left;
+        }
+
+        caption{
+            text-align: left;
+            font: 14px bold #000 ;
+        }
+
+        .tableStyle {
+            border-collapse: collapse;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .kidSize {
+            font: 12px #555;
+            border-collapse: collapse;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .Refund {
+            font: 12px #555;
+            border-collapse: collapse;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .first_bord {
+            background-color: #fbfbfb;
+            text-align: left;
+        }
+
+        .second_bord {
+            background-color: #fbfbfb;
+        }
+
+        .removeLine {
+            border-right: none;
+            border-left: none;
+            border-top: none;
+            border-bottom: none;
+        }
+
+        .removeLine_1 {
+            border-right: none;
+            border-left: none;
+            border-top: 2px solid #a5a5a5;
+            border-bottom: none;
+        }
+
+        .removeLine_2 {
+            border-right: none;
+            border-left: none;
+            border-top: 1px solid #e4e4e4;
+            border-bottom: none;
+        }
+
+        .removeLine_3 {
+            border-right: none;
+            border-left: none;
+            border-top: 1px solid #a5a5a5;
+            border-bottom: 1px solid #e4e4e4;
+        }
+
+        .removeLine_number {
+            border-right: none;
+            border-left: none;
+            border-top: 1px solid #e4e4e4;
+            border-bottom: none;
+            text-align: right;
+            padding-right: 88px;
+        }
+
+        .removeLine_number1 {
+            border-right: none;
+            border-left: none;
+            border-top: none;
+            border-bottom: none;
+            text-align: right;
+            padding-right: 88px;
+        }
+
+        .removeLine_number2 {
+            border-right: none;
+            border-left: none;
+            border-top: none;
+            border-bottom: none;
+            text-align: right;
+            padding-right: 88px;
+        }
+
+        .removeLine_number3 {
+            border-right: none;
+            border-left: none;
+            border-top: 1px solid #a5a5a5;
+            border-bottom: 1px solid #e4e4e4;
+            text-align: right;
+            padding-right: 88px;
+        }
+
+    </style>
+</head>
+<body>
+    <table class="tableStyle">
+        <thead class='first_bord'>
+            <tr><th colspan="11" width="1200"><b>테이블 요소</b></th></tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <table class="kidSize">
+                        <caption><b><br>아동 사이즈<br><br></b></caption>
+                        <thead>
+                            <tr class="second_bord">
+                                <td colspan="3" width="250"><b>구분</b></td>
+                                <td colspan="2" width="200"><b>Small</b></td>
+                                <td colspan="2" width="200"><b>Medimun</b></td>
+                                <td colspan="2" width="200"><b>Large</b></td>
+                                <td colspan="2" width="200"><b>X-Large</b></td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td colspan="2" rowspan="3"><b>미국 남아<br>[Boys 2-7]</b></td><td><b>사이즈</b></td>
+                                <td>2T</td><td>3T</td>
+                                <td>4T</td><td>4</td>
+                                <td>5</td><td>6</td>
+                                <td>7</td>
+                            </tr>
+                            <tr>
+                                <td><b>키</b></td>
+                                <td>84-91</td><td>91-99</td>
+                                <td>91-99</td><td>99-107</td>
+                                <td>107-114</td><td>114-122</td>
+                                <td>122-130</td>
+                            </tr>
+                            <tr>
+                                <td><b>몸무게</b></td>
+                                <td>13-15</td><td>14-15</td>
+                                <td>13-15</td><td>14-15</td>
+                                <td>19-21</td><td>20-23</td>
+                                <td>23-25</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" rowspan="3"><b>미국 여아<br>[Boys 2-6X]</b></td><td><b>사이즈</b></td>
+                                <td>2T</td><td>3T</td>
+                                <td>4T</td><td>4</td>
+                                <td>5</td><td>6</td>
+                                <td>6X</td>
+                            </tr>
+                            <tr>
+                                <td><b>키</b></td>
+                                <td>84-91</td><td>91-99</td>
+                                <td>91-99</td><td>99-107</td>
+                                <td>107-114</td><td>114-122</td>
+                                <td>122-130</td>
+                            </tr>
+                            <tr>
+                                <td><b>몸무게</b></td>
+                                <td>13-15</td><td>14-15</td>
+                                <td>13-15</td><td>14-15</td>
+                                <td>19-21</td><td>20-23</td>
+                                <td>23-25</td>
+                            </tr>
+                        </tbody>
+                    </table> <br><br>
+                    <table class="Refund">
+                        <caption><b><br>아동 사이즈<br><br></b></caption>
+                        <thead>
+                            <tr class="second_bord">
+                                <td class="removeLine_1" width="350">구분</td>
+                                <td class="removeLine_1" width="240">환불가능액</td>
+                                <td class="removeLine_1" width="240">수수료</td>
+                                <td class="removeLine_1" width="240">총 환불 금액</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="removeLine_2">게임 보상금액</td>
+                                <td class="removeLine_number">100,000원</td>
+                                <td class="removeLine_number">1,000원</td>
+                                <td class="removeLine_number">99,000원</td>
+                            </tr>
+                            <tr>
+                                <td class="removeLine">월정액제 보상금액</td>
+                                <td class="removeLine_number1">10,000원</td>
+                                <td class="removeLine_number1">5,000원</td>
+                                <td class="removeLine_number1">5,000원</td>
+                            </tr>
+                            <tr>
+                                <td class="removeLine">코인</td>
+                                <td class="removeLine_number2">9,000원</td>
+                                <td class="removeLine_number2">500원</td>
+                                <td class="removeLine_number2">8,500원</td>
+                            </tr>
+                            <tr>
+                                <td class="removeLine_3"><b>총합</b></td>
+                                <td class="removeLine_number3"><b>119,000원</b></td>
+                                <td class="removeLine_number3"><b>6,500원</b></td>
+                                <td class="removeLine_number3"><b>112,500원</b></td>
+                            </tr>
+                        </tbody>
+                    </table> <br><br>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
